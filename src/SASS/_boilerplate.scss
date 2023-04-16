@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@600;800&family=Tenor+Sans&display=swap");
+
+//fonts
+$heading: "Syne", sans-serif;
+$body: "Tenor Sans", sans-serif;
+$menu: "Work Sans", sans-serif;
+
+//colors
+
+$primary: #ffffff;
+$accent: #6ba6ff;
+$secondary: #eafcff;
+
+$secondary2: #d6f5f9;
+
+
+:root {
+  $primary: #ffffff;
+  $accent: #6ba6ff;
+  $secondary: #eafcff;
+
+
+  $heading: "Syne", sans-serif;
+$body: "Tenor Sans", sans-serif;
+
+  $purple: #7664ff;
+  $light-purple: #bdadfc;
+  $dark-purple: #77298c;
+  $pink: #f1ccfa;
+  $blue: #0c145e;
+  $light-gray: #eaebf5;
+  $dark-gray: #b2b8e8;
+
+  $rose: #f1468e;
+  $light-rose: #df90bd;
+  $bg: rgb(255, 201, 169);
+  $white: #ffffff;
+  $black: #000000;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: $primary;
+  color: $accent;
+  overflow-x: hidden;
+  font-family: "Syne", sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.width {
+  width: min(90%, 1300px);
+  margin-inline: auto;
+}
